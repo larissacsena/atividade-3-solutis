@@ -39,19 +39,19 @@ Este projeto foi desenvolvido em colaboração por uma equipe de 7 pessoas. Cada
 
 - Membros da Equipe
 
-Alexandre(link para o GitHub)
+Alexandre Morais - https://github.com/Ednaxx
 
-Bruno(link para o GitHub)
+Bruno Ricardo Machado - https://github.com/brunorm86
 
-Gabriel(link para o GitHub)
+Gabriel Sena - https://github.com/Gabriel-SBS
 
-José(link para o GitHub)
+José Nathan - https://github.com/josenathan0
 
-Junior(link para o GitHub)
+Junior Aquino - https://github.com/GitAquino
 
-Larissa Sena(link para o GitHub)
+Larissa Sena - https://github.com/larissacsena
 
-Vinícius Almada https://github.com/AlmadaAlmada
+Vinícius Almada - https://github.com/AlmadaAlmada
 
 - Exercícios Resolvidos
   
