@@ -15,14 +15,14 @@ d. a quantidade de pessoas maior de idade.
 public class Atividade40 {
     public static void main(String[] args) {
         List<Integer> ages = new ArrayList<>();
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
         System.out.println("Informe a quantidade de pessoas.");
-        int peopleAmount = sc.nextInt();
+        int peopleAmount = s.nextInt();
 
         for (int i = 0; i < peopleAmount; i++) {
             System.out.println("Informe a idade da pessoa " + (i + 1));
-            ages.add(sc.nextInt());
+            ages.add(s.nextInt());
         }
 
         System.out.println("Média das idades: " + mean(ages, peopleAmount));
@@ -31,6 +31,8 @@ public class Atividade40 {
 
         int adultAmount = (int) ages.stream().filter(age -> age >= 18).count();
         System.out.println("Quantidade de maiores de idade: " + adultAmount);
+
+        s.close();
     }
 
     static float mean(List<Integer> ages, int peopleAmount) {

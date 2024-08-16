@@ -20,6 +20,8 @@ public class Atividade26 {
         int timeDifference = Math.abs(timeInSeconds2 - timeInSeconds1);
 
         System.out.println("Diferença de: " + timeDifference + " segundos.");
+
+        s.close();
     }
 
     static int convertToSeconds(String time) {

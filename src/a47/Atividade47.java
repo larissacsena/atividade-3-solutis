@@ -115,6 +115,7 @@ public class Atividade47 {
             s.nextLine();
 
             pacientes.add(new Paciente(nome, sexo, idade, peso, altura));
+            s.close();
         }
     }
 
