@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /*Modifique o problema anterior para que a quantidade de valores também seja fornecida pelo
 usuário.*/
-public class atividade44 {
+public class atividade44_Bruno {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
