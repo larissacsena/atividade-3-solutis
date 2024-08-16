@@ -16,18 +16,15 @@ public class Atividade44 {
 
         Scanner sc = new Scanner(System.in);
 
-        int aux = sc.nextInt();
-
-        final int QUANTIDADE_VALORES = aux;
+        int qntValores = sc.nextInt();
 
         double somatorio = 0;
 
-        for(int i = 1; i <= QUANTIDADE_VALORES; i++) {
+        for(int i = 1; i <= qntValores; i++) {
             System.out.println("Digite o " + i + "º valor: ");
             somatorio += sc.nextDouble();
-            i++;
         }
 
-        System.out.println("A média aritmética dos "+QUANTIDADE_VALORES+" digitados é: "+(somatorio/QUANTIDADE_VALORES));
+        System.out.println("A média aritmética dos "+qntValores+" números digitados é: "+(somatorio/qntValores));
     }
 }

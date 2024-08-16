@@ -20,7 +20,6 @@ public class Atividade43 {
         for(int i = 1; i <= QUANTIDADE_VALORES; i++) {
             System.out.println("Digite o " + i + "º valor: ");
             somatorio += sc.nextDouble();
-            i++;
         }
 
         System.out.println("A média aritmética dos "+QUANTIDADE_VALORES+" digitados é: "+(somatorio/QUANTIDADE_VALORES));
