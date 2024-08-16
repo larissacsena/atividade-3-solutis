@@ -10,7 +10,7 @@ public class Atividade31 {
 
         for(int i= 0;i<NUMERO_REPETICOES;i++){
 
-            System.out.println(1000);
+            System.out.println((i+1)+"ª repetição: 1000");
         }
 
         System.out.println("Número de repetições: " + NUMERO_REPETICOES);

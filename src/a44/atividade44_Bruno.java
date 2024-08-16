@@ -15,6 +15,7 @@ public class atividade44_Bruno {
         if (quantidade <= 0) {
             System.out.println("A quantidade de valores deve ser maior do que zero.");
         } else {
+
             double soma = 0;
 
             for (int i = 1; i <= quantidade; i++) {
@@ -23,9 +24,7 @@ public class atividade44_Bruno {
                 soma += valor;
             }
 
-            System.out.printf("A média dos valores fornecidos é: %.2f%n", (soma/quantidade));
+            System.out.printf("A média aritmética dos "+(quantidade)+" valores fornecidos é: %.2f%n", (soma/quantidade));
         }
-
-        scanner.close();
     }
 }

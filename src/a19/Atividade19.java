@@ -17,7 +17,7 @@ public class Atividade19 {
 
         Scanner entrada = new Scanner(System.in);
 
-        for(int i = 0; i<=QUANTIDADE_NUMEROS-1; i++){
+        for(int i = 0; i<QUANTIDADE_NUMEROS; i++){
 
             System.out.println("Digite o "+(i+1)+"º número: ");
             numeros[i] = entrada.nextDouble();

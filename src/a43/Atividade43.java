@@ -2,8 +2,6 @@ package a43;
 
 /*
 43. Calcule a média aritmética de 500 valores fornecidos pelo usuário.
-44. Modifique o problema anterior para que a quantidade de valores também seja fornecida pelo
-usuário.
  */
 
 import java.util.Scanner;
@@ -22,6 +20,6 @@ public class Atividade43 {
             somatorio += sc.nextDouble();
         }
 
-        System.out.println("A média aritmética dos "+QUANTIDADE_VALORES+" digitados é: "+(somatorio/QUANTIDADE_VALORES));
+        System.out.println("A média aritmética dos "+QUANTIDADE_VALORES+" valores digitados é: "+(somatorio/QUANTIDADE_VALORES));
     }
 }

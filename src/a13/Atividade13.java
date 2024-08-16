@@ -1,3 +1,5 @@
+package a13;
+
 /*
 A partir de 3 notas fornecidas de um aluno, informe se ele foi aprovado, ficou de
 recuperação ou foi reprovado. A média de aprovação é >=7.0; a média de recuperação é
@@ -5,8 +7,6 @@ recuperação ou foi reprovado. A média de aprovação é >=7.0; a média de re
 Acrescente no problema anterior possibilidade dele fazer prova final em caso de
 recuperação. Neste caso a nota de aprovação passa a ser >= 5.0
 */
-
-package a13;
 
 import java.util.Scanner;
 
@@ -43,7 +43,7 @@ public class Atividade13 {
 
             double notaRecuperacao = entrada.nextDouble();
 
-            System.out.print("Nota recuperação: "+notaRecuperacao);
+            System.out.println("Nota recuperação: "+notaRecuperacao);
 
             if(notaRecuperacao<5.0){
                 System.out.println("Aluno não atingiu a nota requerida!");
@@ -51,9 +51,5 @@ public class Atividade13 {
                 System.out.println("Aluno aprovado na recuperação!");
             }
         }
-
-
     }
 }
-
-

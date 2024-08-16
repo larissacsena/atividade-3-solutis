@@ -1,4 +1,5 @@
 package a50;
+
 /*
 50. Imprima exatamente o n-ezimo termo da seqüência de Fibonacci.
  */
@@ -19,7 +20,7 @@ public class Atividade50_Bruno {
 
         System.out.printf("Sequência de Fibonacci de "+n+" termos: ");
 
-                for(int i =1;i<=n; i++) {
+        for(int i =1;i<=n; i++) {
 
             numerosFibonacci.add(fibonacciRecursivo(i));
         }
