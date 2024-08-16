@@ -45,17 +45,19 @@ Bruno(link para o GitHub)
 
 Gabriel(link para o GitHub)
 
-Junior(link para o GitHub)
-
 José(link para o GitHub)
+
+Junior(link para o GitHub)
 
 Larissa Sena(link para o GitHub)
 
 Vinícius Almada https://github.com/AlmadaAlmada
 
 - Exercícios Resolvidos
+  
+Ao longo do desenvolvimento, os exercícios da lista foram resolvidos em autoria por:
 
-Ao longo do desenvolvimento, OS exercícios da lista foram resolvidos em autoria por:
+Alexandre: 11, 18, 26, 33, 40, 47, 54, 62
 
 bruno: 1, 7, 13, 19, 25, 31, 37, 43, 49
 
@@ -65,11 +67,9 @@ José: 3, 10, 14, 21, 28, 35, 42, 50, 57
 
 Junior: 4, 8, 15, 16, 22, 29, 36, 51, 58, 65
 
-Maura: 5, 9, 23, 30, 38, 45, 52, 55, 59
+Larissa Sena: 5, 9, 23, 30, 38, 45, 52, 55, 59
 
 Vinicius Almada: 6, 12, 24, 32, 39, 44, 46, 53, 60
-
-Alexandre: 11, 18, 26, 33, 40, 47, 54, 62
 
 - Licença
 
