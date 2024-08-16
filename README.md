@@ -1,16 +1,18 @@
-__Atividade 3 - Solutis Dev Trail 2024__
+### __Atividade 3 - Solutis Dev Trail 2024__
 
 - Sobre o Projeto
 
 Este repositório contém a resolução da Lista de Exercícios 03 – Básico x Avançado, desenvolvida como parte do processo seletivo para o programa Solutis Dev Trail 2024. A lista consiste em 65 exercícios que abrangem diferentes níveis de dificuldade, desde o básico até o avançado. O objetivo principal é avaliar e fortalecer as habilidades dos participantes em lógica de programação e desenvolvimento em Java.
 
+  
 - Estrutura do Projeto
 
 src: Contém o código fonte das soluções implementadas em Java.
 
 exercicios: Uma subdivisão dos exercícios conforme as especificações da lista original.
 
-README.md: Arquivo de documentação do projeto.
+README.md: Arquivo de documentação do projeto.  
+
 
 - Como Executar o Projeto
 
@@ -28,15 +30,18 @@ cd ../atividade-3-solutis
 
 Abra o projeto na sua IDE e execute os arquivos .java individualmente, conforme necessário.
 
+
 - Pré-requisitos
 
 Java JDK 8 ou superior instalado.
 
 Uma IDE de sua escolha (IntelliJ IDEA, Eclipse, etc.).
 
--Desenvolvimento
+
+- Desenvolvimento
 
 Este projeto foi desenvolvido em colaboração por uma equipe de 7 pessoas. Cada membro contribuiu com a implementação e validação das soluções propostas para os exercícios.
+
 
 - Membros da Equipe
 
@@ -53,6 +58,7 @@ Junior Aquino - https://github.com/GitAquino
 Larissa Sena - https://github.com/larissacsena
 
 Vinícius Almada - https://github.com/AlmadaAlmada
+
 
 - Exercícios Resolvidos
   
@@ -71,6 +77,7 @@ Junior: 4, 8, 15, 16, 22, 29, 36, 51, 58, 65
 Larissa Sena: 5, 9, 23, 30, 38, 45, 52, 55, 59
 
 Vinicius Almada: 6, 12, 24, 32, 39, 44, 46, 53, 60
+
 
 - Licença
 
