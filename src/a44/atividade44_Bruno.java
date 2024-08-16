@@ -1,9 +1,10 @@
 package a44;
 
-import java.util.Scanner;
-
 /*Modifique o problema anterior para que a quantidade de valores também seja fornecida pelo
 usuário.*/
+
+import java.util.Scanner;
+
 public class atividade44_Bruno {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +13,7 @@ public class atividade44_Bruno {
         int quantidade = scanner.nextInt();
 
         if (quantidade <= 0) {
-            System.out.println("A quantidade de valores deve ser maior que zero.");
+            System.out.println("A quantidade de valores deve ser maior do que zero.");
         } else {
             double soma = 0;
 
