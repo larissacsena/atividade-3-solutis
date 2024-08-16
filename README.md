@@ -24,7 +24,7 @@ git clone https://github.com/larissacsena/atividade-3-solutis.git
 
 Navegue até o diretório do projeto:
 
-cd atividade-3-solutis
+cd ../atividade-3-solutis
 
 Abra o projeto na sua IDE e execute os arquivos .java individualmente, conforme necessário.
 
@@ -33,7 +33,8 @@ Abra o projeto na sua IDE e execute os arquivos .java individualmente, conforme 
 Java JDK 8 ou superior instalado.
 
 Uma IDE de sua escolha (IntelliJ IDEA, Eclipse, etc.).
-Desenvolvimento
+
+-Desenvolvimento
 
 Este projeto foi desenvolvido em colaboração por uma equipe de 7 pessoas. Cada membro contribuiu com a implementação e validação das soluções propostas para os exercícios.
 
@@ -59,7 +60,7 @@ Ao longo do desenvolvimento, os exercícios da lista foram resolvidos em autoria
 
 Alexandre: 11, 18, 26, 33, 40, 47, 54, 62
 
-bruno: 1, 7, 13, 19, 25, 31, 37, 43, 49
+Bruno: 1, 7, 13, 19, 25, 31, 37, 43, 49
 
 Gabriel: 2, 17, 27, 34, 41, 48, 56, 63, 61
 
