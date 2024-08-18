@@ -1,5 +1,7 @@
 package a56;
 
+/*Classe candidato*/
+
 public class Atividade56Candidato {
   private String nome;
   private int votos;
