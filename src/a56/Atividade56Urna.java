@@ -1,5 +1,7 @@
 package a56;
 
+/*Classe urna*/
+
 public class Atividade56Urna {
   private Atividade56Candidato[] candidatos;
   private int votosEmBranco;
