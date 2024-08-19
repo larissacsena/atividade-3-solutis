@@ -19,7 +19,7 @@ O objetivo principal é avaliar e fortalecer as habilidades dos participantes em
 ```
 ## Pré-requisitos
 
-Java JDK 8 ou superior instalado.
+Java JDK 14 ou superior instalado.
 
 ## Como Executar o Projeto
 
