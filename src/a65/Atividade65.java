@@ -2,6 +2,19 @@ package a65;
 
 import java.util.Scanner;
 
+/*
+    Desenhe a seguinte pirâmide de asteriscos. O usuário determina a quantidade de linhas.
+
+            *
+           ***
+          *****
+         *******
+        *********
+       ***********
+      *************
+     ***************
+*/
+
 public class Atividade65 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -25,5 +38,6 @@ public class Atividade65 {
             // Usado para pular uma linha entre cada vez do loop realizado
             System.out.println();
         }
+      sc.close();
     }
 }

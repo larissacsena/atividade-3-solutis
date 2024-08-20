@@ -2,11 +2,13 @@ package a4;
 
 import java.util.Scanner;
 
+/*
+    Lê as notas respectivamente, divide pelo número de notas (4),
+    e calcula a média total
+*/
+
 public class Atividade4 {
     public static void main(String[] args) {
-
-        /* Lê as notas respectivamente, divide pelo número de notas (4),
-        * e calcula a média total */
 
         Scanner sc = new Scanner(System.in);
 
@@ -24,5 +26,7 @@ public class Atividade4 {
         float media = (nota1 + nota2 + nota3 + nota4) / 4;
 
         System.out.println("A média das quatro notas é: "+media);
+
+        sc.close();
     }
 }
