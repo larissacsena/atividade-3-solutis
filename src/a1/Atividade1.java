@@ -12,15 +12,14 @@ public class Atividade1 {
         int anoNascimento;
         int anoAtual;
 
-        Scanner entrada = new Scanner(System.in);
-        try {
+        try (Scanner entrada = new Scanner(System.in)) {
             System.out.println("Digite o ano de nascimento: ");
             anoNascimento = entrada.nextInt();
             System.out.println("Digite o ano de atual: ");
             anoAtual = entrada.nextInt();
-            System.out.println("Neste ano de "+anoAtual+" você fez ou fará "+(anoAtual-anoNascimento)+" anos de idade!");
+            System.out.println("Neste ano de " + anoAtual + " você fez ou fará " + (anoAtual - anoNascimento) + " anos de idade!");
 
-        }catch(InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.println("Valor inválido!");
         }
     }
