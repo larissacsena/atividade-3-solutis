@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /*
 15. Verifique a validade de uma data de aniversário (solicite apenas o número do dia e do mês).
-Além de falar se a data está ok, informe também o nome do mês.
+Além de falar se a data está ok, informe também o name do mês.
 Dica: meses com 30 dias: abril, junho, setembro e novembro.
 
 16. Acrescente no exercício anterior se a pessoa nasceu no 1º, 2º, 3º ou 4º trimestre.

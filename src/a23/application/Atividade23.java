@@ -49,7 +49,7 @@ public class Atividade23 {
         String name = null;
         while (name == null) {
             try {
-                System.out.print("Digite o nome da " + personNumber + "ª pessoa: ");
+                System.out.print("Digite o name da " + personNumber + "ª pessoa: ");
                 name = sc.nextLine().trim();
                 if (!isValidName(name)) throw new InputMismatchException();
             } catch (InputMismatchException e) {
