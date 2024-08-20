@@ -25,6 +25,6 @@ public class Atividade8 {
         } else {
             System.out.println("O denonimador é igual a 0!");
         }
-      sc.close();
+        sc.close();
     }
 }

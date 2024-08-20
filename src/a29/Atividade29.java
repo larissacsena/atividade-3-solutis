@@ -26,18 +26,13 @@ public class Atividade29 {
         System.out.println("Informe o ponto Y do item 2: ");
         int y2 = sc.nextInt();
 
-        if (x1==x2 && y1==y2){
+        if (x1 == x2 && y1 == y2) {
             System.out.println("As coordenadas representam um ponto");
-        }
-        // X mantém o mesmo valor, porém Y tem valores distintos, representando apenas mudança vertical
-        else if (x1==x2){
+        } else if (x1 == x2) {
             System.out.println("As coordenadas representam uma reta vertical");
-        }
-        // Y mantém o mesmo valor, porém X tem valores distintos, representando apenas mudança horizontal
-        else if (y1==y2){
+        } else if (y1 == y2) {
             System.out.println("As coordenadas representam uma reta horizontal");
-        }
-        else{
+        } else {
             System.out.println("As coordenadas podem representar um quadrado ou retângulo");
         }
         sc.close();

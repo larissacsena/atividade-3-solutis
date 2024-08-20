@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 /*Verifique se um número é perfeito, ou seja, se a soma dos seus divisores (exceto o próprio
 número) é igual a ele mesmo.*/
-public class atividade39 {
+
+public class Atividade39 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

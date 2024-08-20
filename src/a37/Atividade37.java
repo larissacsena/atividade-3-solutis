@@ -21,5 +21,4 @@ public class Atividade37 {
         }
         return fatorial;
     }
-
 }

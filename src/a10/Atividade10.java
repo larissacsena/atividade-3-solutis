@@ -23,10 +23,9 @@ public class Atividade10 {
 
         float salarioLiquido = salarioBruto - descontos;
 
-        if (emprestimo <= salarioLiquido*0.3) {
+        if (emprestimo <= salarioLiquido * 0.3) {
             System.out.println("Empréstimo aprovado!");
-        }
-        else {
+        } else {
             System.out.println("Empréstimo negado!");
         }
         sc.close();

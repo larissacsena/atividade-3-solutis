@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*45.Determine o maior valor de uma lista de 100 números fornecidos pelo usuário.*/
+
 public class Atividade45 {
     public static void main(String[] args) {
         final int TOTALNUMBERS = 5;

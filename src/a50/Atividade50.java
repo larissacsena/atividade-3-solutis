@@ -1,11 +1,11 @@
 package a50;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 /*
 50. Imprima exatamente o n-ezimo termo da seqüência de Fibonacci.
  */
-
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Atividade50 {
     public static void main(String[] args) {
@@ -18,9 +18,9 @@ public class Atividade50 {
 
         int n = sc.nextInt();
 
-        System.out.printf("Sequência de Fibonacci de "+n+" termos: ");
+        System.out.printf("Sequência de Fibonacci de " + n + " termos: ");
 
-        for(int i =1;i<=n; i++) {
+        for (int i = 1; i <= n; i++) {
 
             numerosFibonacci.add(fibonacciRecursivo(i));
         }
@@ -30,9 +30,6 @@ public class Atividade50 {
     }
 
     public static int fibonacciRecursivo(int n) {
-
-        //sequência de fibonnaci: cada número da sequência é a soma dos dois anteriores, começando com 1
-
         if (n <= 1) {
             return n;
         } else {

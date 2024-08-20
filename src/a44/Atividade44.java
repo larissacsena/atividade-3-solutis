@@ -1,11 +1,12 @@
 package a44;
 
+import java.util.Scanner;
+
+
 /*Modifique o problema anterior para que a quantidade de valores também seja fornecida pelo
 usuário.*/
 
-import java.util.Scanner;
-
-public class atividade44_Bruno {
+public class Atividade44 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,7 +25,7 @@ public class atividade44_Bruno {
                 soma += valor;
             }
 
-            System.out.printf("A média aritmética dos "+(quantidade)+" valores fornecidos é: %.2f%n", (soma/quantidade));
+            System.out.printf("A média aritmética dos " + (quantidade) + " valores fornecidos é: %.2f%n", (soma / quantidade));
         }
     }
 }

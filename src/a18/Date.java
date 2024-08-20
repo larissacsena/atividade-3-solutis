@@ -14,7 +14,7 @@ public class Date {
     }
 
     private void validateDate(int day, int month, int year) {
-        if (day < 1 || day > 31){
+        if (day < 1 || day > 31) {
             System.out.println("Dia inválido.");
             throw new IllegalArgumentException();
         }
@@ -35,18 +35,16 @@ public class Date {
         if (day > daysInMonth) {
             System.out.println("Mês não tem " + day + " dias.");
             throw new IllegalArgumentException();
-        };
+        }
+        ;
     }
 
     private boolean isLeapYear(int year) {
         if (year % 4 == 0) {
             if (year % 100 == 0) {
                 return year % 400 == 0;
-            }
-            else return true;
-        }
-
-        else return false;
+            } else return true;
+        } else return false;
     }
 
     public int getYear() {

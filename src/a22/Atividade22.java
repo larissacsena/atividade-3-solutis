@@ -1,4 +1,5 @@
 package a22;
+
 import java.util.Scanner;
 
 /*
@@ -21,16 +22,13 @@ public class Atividade22 {
 
         if (dia1 == dia2 && mes1 == mes2) {
             System.out.println("Datas iguais!");
-        }
-        else if (dia1 <= 0 || dia1 > 31 || mes1 < 1 || mes1 > 12) {
+        } else if (dia1 <= 0 || dia1 > 31 || mes1 < 1 || mes1 > 12) {
             System.out.println("Data 01 é invalida!");
-        }
-        else if (dia2 < 1 || dia2 > 31 || mes2 < 1 || mes2 > 12) {
+        } else if (dia2 < 1 || dia2 > 31 || mes2 < 1 || mes2 > 12) {
             System.out.println("Data 02 é invalida!");
-        }
-        else{
+        } else {
             System.out.println("Datas diferentes!");
         }
-      sc.close();
+        sc.close();
     }
 }

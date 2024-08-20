@@ -17,8 +17,8 @@ public class Atividade27 {
         int num3 = scan.nextInt();
 
         scan.close();
-        
-        if (num1 > num2 && num1 > num3){
+
+        if (num1 > num2 && num1 > num3) {
             System.out.println("O maior número é: " + num1);
         } else if (num2 > num1 && num2 > num3) {
             System.out.println("O maior número é: " + num2);

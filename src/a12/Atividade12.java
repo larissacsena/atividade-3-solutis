@@ -5,7 +5,8 @@ import java.util.Scanner;
 /* A partir de 3 notas fornecidas de um aluno, informe se ele foi aprovado, ficou de
 recuperação ou foi reprovado. A média de aprovação é &gt;= 7.0; a média de recuperação é
 &gt;= 5.0 e &lt; 7.0; e a média do reprovado é &lt; 5.0 */
-public class atividade12 {
+
+public class Atividade12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -28,7 +29,6 @@ public class atividade12 {
         } else if (media < 5) {
             System.out.println("Reprovado");
         }
-
         sc.close();
     }
 }

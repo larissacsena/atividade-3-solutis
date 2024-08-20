@@ -17,18 +17,16 @@ public class Atividade19 {
 
         Scanner entrada = new Scanner(System.in);
 
-        for(int i = 0; i<QUANTIDADE_NUMEROS; i++){
+        for (int i = 0; i < QUANTIDADE_NUMEROS; i++) {
 
-            System.out.println("Digite o "+(i+1)+"º número: ");
+            System.out.println("Digite o " + (i + 1) + "º número: ");
             numeros[i] = entrada.nextDouble();
 
         }
 
-        //Imprime números digitados na ordem fornecida
         System.out.println("Os números digitados foram: ");
         System.out.println(Arrays.toString(numeros));
 
-        //Imprime números digitados na ordem crescente
         Arrays.sort(numeros);
         System.out.println("Os números em ordem crescente são: ");
         System.out.println(Arrays.toString(numeros));

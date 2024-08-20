@@ -1,12 +1,12 @@
 package a42;
 
+import java.util.Arrays;
+import java.util.Random;
+
 /*
 Aproveitando o algoritmo do exercício anterior, exiba uma lista de 40 grupos de números
 sorteados de 0 a 59. Cada grupo possui 3 números e deve exibido em ordem crescente.
 */
-
-import java.util.Arrays;
-import java.util.Random;
 
 public class Atividade42 {
     public static void main(String[] args) {

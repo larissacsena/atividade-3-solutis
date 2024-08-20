@@ -17,7 +17,7 @@ Dica: meses com 30 dias: abril, junho, setembro e novembro.
 partir destas informações, apresente a idade atual desta pessoa.
 */
 
-public class Atividade18 {
+public class Atividade15_16_17_18 {
     private static final String[] monthNames = {
             "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
             "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
@@ -29,16 +29,14 @@ public class Atividade18 {
 
         try {
             birthDate = getBirthDate(scanner);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Data de nascimento inválida.");
             return;
         }
 
         try {
             currentDate = getCurrentDate(scanner);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Data atual inválida.");
             return;
         }
@@ -122,8 +120,7 @@ public class Atividade18 {
     }
 
     private static int getAge(int birthDay, int birthMonth, int birthYear,
-                                int currentDay, int currentMonth, int currentYear)
-    {
+                              int currentDay, int currentMonth, int currentYear) {
         int age = currentYear - birthYear;
 
         if (currentMonth < birthMonth || (currentMonth == birthMonth && currentDay < birthDay)) {

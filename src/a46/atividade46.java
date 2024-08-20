@@ -4,6 +4,7 @@ import java.util.Random;
 
 /*Determine a quantidade de homens e mulheres (separadamente) que são maiores de
 idade, baseado numa lista de 200 pessoas.*/
+
 public class atividade46 {
     public static void main(String[] args) {
         Random random = new Random();

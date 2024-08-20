@@ -28,15 +28,13 @@ public class Atividade47 {
             try {
                 boolean quit = inputPatientData(scanner, patients);
                 if (quit) break;
-            }
-            catch (Exception e) {
+            } catch (Exception e) {
                 System.out.println("Entrada inválida, tente novamente.");
             }
         }
 
         scanner.close();
 
-        // Descrição de cada query se encontra no enunciado da questão
         query1(patients);
         query2(patients);
         query3(patients);
@@ -128,7 +126,6 @@ public class Atividade47 {
     }
 
     private static void query7(List<Patient> patients) {
-        // query7 - idade media de homens com altura abaixo de 1.6m
         List<Patient> homensBaixos = patients.stream()
                 .filter(patient -> patient.height() < 1.6).toList();
 

@@ -25,7 +25,7 @@ public class Atividade4 {
 
         float media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-        System.out.println("A média das quatro notas é: "+media);
+        System.out.println("A média das quatro notas é: " + media);
 
         sc.close();
     }

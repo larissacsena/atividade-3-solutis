@@ -1,11 +1,12 @@
 package a35;
 
-/*
-Exiba uma quantidade de números sorteados determinada pelo usuário. Peça também que o usuário determine a faixa do sorteio.
-*/
-
 import java.util.Random;
 import java.util.Scanner;
+
+/*
+Exiba uma quantidade de números sorteados determinada pelo usuário.
+Peça também que o usuário determine a faixa do sorteio.
+*/
 
 public class Atividade35 {
     public static void main(String[] args) {
@@ -25,11 +26,9 @@ public class Atividade35 {
 
         System.out.println("Números sorteados:");
 
-        // Aqui exibe os números sorteados únicos
         for (int i = 0; i < quantidade; i++) {
             int numeroSorteado;
 
-            // Aqui vai garantir que os números sorteados sejam únicos
             do {
                 numeroSorteado = random.nextInt(faixa) + 1;
             } while (numeroJaSorteado(numeroSorteado, i));
@@ -38,7 +37,6 @@ public class Atividade35 {
         }
     }
 
-    // Método que verifica se o número já foi sorteado
     private static boolean numeroJaSorteado(int numero, int quantidadeSorteados) {
         return false;
     }

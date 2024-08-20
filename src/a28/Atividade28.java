@@ -1,11 +1,11 @@
 package a28;
 
+import java.util.Scanner;
+
 /*
 Coloque em ordem crescente três números quaisquer.
 Como desafio, tente depois fazer uma solução com apenas 3 estruturas de decisão.
 */
-
-import java.util.Scanner;
 
 public class Atividade28 {
     public static void main(String[] args) {
@@ -20,7 +20,6 @@ public class Atividade28 {
         System.out.print("Informe o terceiro número: ");
         int c = scanner.nextInt();
 
-        // Ordenando os números usando apenas três estruturas de decisão
         if (a > b) {
             int temp = a;
             a = b;

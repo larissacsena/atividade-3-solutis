@@ -16,8 +16,7 @@ public class Atividade26 {
             System.out.print("Digite o primeiro horário (HH:mm:ss): ");
             time1 = s.nextLine();
             validateTime(time1);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Primeiro horário inválido.");
             s.close();
             return;
@@ -27,8 +26,7 @@ public class Atividade26 {
             System.out.print("Digite o segundo horário (HH:mm:ss): ");
             time2 = s.nextLine();
             validateTime(time2);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Segundo horário inválido.");
             s.close();
             return;
