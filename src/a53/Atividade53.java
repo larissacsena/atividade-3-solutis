@@ -3,7 +3,8 @@ package a53;
 import java.util.Scanner;
 
 /*Exiba a tabuada de um número fornecido pelo usuário.*/
-public class atvidade53 {
+
+public class Atividade53 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -3,6 +3,9 @@ package a64;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*Desenhe a seguinte seqüência de triângulos. O usuário determina a quantidade de
+triângulos.*/
+
 public class Atividade64 {
 
     public static void main(String[] args) {
@@ -29,7 +32,7 @@ public class Atividade64 {
                 scanner.next();
             }
         }
-
+        scanner.close();
         return totalTriangles;
     }
 

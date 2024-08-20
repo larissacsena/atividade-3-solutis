@@ -1,14 +1,13 @@
 package a57;
 
-/*
-Exiba todas as datas de um calendário que estão entre duas datas informadas pelo usuário
-(dia, mês e ano). Suponha que as duas datas informadas sejam válidas.
-*/
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
+/*
+    Exiba todas as datas de um calendário que estão entre duas datas informadas pelo usuário
+    (dia, mês e ano). Suponha que as duas datas informadas sejam válidas.
+*/
 public class Atividade57 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +18,7 @@ public class Atividade57 {
         LocalDate inicio = LocalDate.parse(data1, formatter);
 
         LocalDate fim;
-        // Loop para garantir que a segunda data seja posterior à primeira
+
         while (true) {
             System.out.print("Informe a segunda data (dd/MM/yyyy): ");
             String data2 = scanner.nextLine();

@@ -1,5 +1,7 @@
 package a59;
 
+/*.Exiba as 10 tabuadas (de 1 a 10).*/
+
 public class Atividade59 {
     public static void main(String[] args) {
         int maxTabuada = 10;

@@ -7,7 +7,7 @@ package a50;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Atividade50_Bruno {
+public class Atividade50 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
