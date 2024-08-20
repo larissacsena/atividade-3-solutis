@@ -6,9 +6,9 @@ Math.PI */
 
 public class Atividade6 {
     public static void main(String[] args) {
-        double Raio = 5;
-        double Area = (Raio * Raio) * Math.PI;
+        double raio = 5;
+        double area = (raio * raio) * Math.PI;
 
-        System.out.println("Area = " + Area);
+        System.out.println("Area = " + area);
     }
 }
