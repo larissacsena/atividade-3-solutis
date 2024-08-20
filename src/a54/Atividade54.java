@@ -26,6 +26,17 @@ public class Atividade54 {
         System.out.print("Informe a cotação do dólar: ");
         double dollarValue = s.nextDouble();
 
+        s.close();
+
+        if (initialValue < 0 || finalValue < 0 || increment < 0 || dollarValue < 0) {
+            System.out.println("Nenhum valor pode ser negativo.");
+            return;
+        }
+
+        showTable(initialValue, finalValue, increment, dollarValue);
+    }
+
+    private static void showTable(double initialValue, double finalValue, double increment, double dollarValue) {
         NumberFormat formatoMoeda = NumberFormat.getCurrencyInstance(Locale.of("pt", "BR"));
 
         System.out.println("Tabela de Conversão: Reais -> Dólares");
@@ -39,7 +50,5 @@ public class Atividade54 {
                     formatoMoeda.format(value),
                     formatoMoeda.format(convertedValue));
         }
-
-        s.close();
     }
 }

@@ -25,13 +25,13 @@ public class Atividade9 {
         String name = null;
         while (name == null || name.isEmpty()) {
             try {
-                System.out.print("Digite o nome do usuário: ");
+                System.out.print("Digite o name do usuário: ");
                 name = sc.nextLine().trim();
                 if (!name.matches("[a-zA-Z\\s]+")) {
                     throw new IllegalArgumentException();
                 }
             } catch (IllegalArgumentException e) {
-                System.out.println("Entrada Inválida! Por favor digite um nome válido.");
+                System.out.println("Entrada Inválida! Por favor digite um name válido.");
                 name = null;
             }
         }

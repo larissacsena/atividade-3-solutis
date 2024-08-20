@@ -13,7 +13,8 @@ public class Atividade11 {
         System.out.println("Insira a idade do cidadão:");
         int age = sc.nextInt();
 
-        if (age < 16) System.out.println("Não pode votar.");
+        if (age < 0) System.out.println("Idade inválida.");
+        else if (age < 16) System.out.println("Não pode votar.");
         else if ((age < 18) || (age >= 65)) System.out.println("Voto facultativo.");
         else System.out.println("Voto obrigatório.");
 

@@ -9,19 +9,50 @@ Dica: transforme os dois horários para segundos.*/
 public class Atividade26 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        String time1;
+        String time2;
 
-        System.out.print("Digite o primeiro horário (HH:mm:ss): ");
-        String time1 = s.nextLine();
-        System.out.print("Digite o segundo horário (HH:mm:ss): ");
-        String time2 = s.nextLine();
+        try {
+            System.out.print("Digite o primeiro horário (HH:mm:ss): ");
+            time1 = s.nextLine();
+            validateTime(time1);
+        }
+        catch (Exception e) {
+            System.out.println("Primeiro horário inválido.");
+            s.close();
+            return;
+        }
+
+        try {
+            System.out.print("Digite o segundo horário (HH:mm:ss): ");
+            time2 = s.nextLine();
+            validateTime(time2);
+        }
+        catch (Exception e) {
+            System.out.println("Segundo horário inválido.");
+            s.close();
+            return;
+        }
+
+        s.close();
 
         int timeInSeconds1 = convertToSeconds(time1);
         int timeInSeconds2 = convertToSeconds(time2);
         int timeDifference = Math.abs(timeInSeconds2 - timeInSeconds1);
 
         System.out.println("Diferença de: " + timeDifference + " segundos.");
+    }
 
-        s.close();
+    static void validateTime(String time) {
+        String[] split = time.split(":");
+
+        int hours = Integer.parseInt(split[0]);
+        int minutes = Integer.parseInt(split[1]);
+        int seconds = Integer.parseInt(split[2]);
+
+        if (hours > 23 || hours < 0) throw new IllegalArgumentException();
+        else if (minutes > 59 || minutes < 0) throw new IllegalArgumentException();
+        else if (seconds > 59 || seconds < 0) throw new IllegalArgumentException();
     }
 
     static int convertToSeconds(String time) {

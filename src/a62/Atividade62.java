@@ -25,6 +25,13 @@ public class Atividade62 {
         System.out.print("Informe a quantidade de linhas: ");
         int lines = s.nextInt();
 
+        s.close();
+
+        if (lines <= 0) {
+            System.out.println("Valor não pode ser negativo.");
+            return;
+        }
+
         for (int i = 1; i <= lines; i++) {
             String formattedNumber = String.format("%02d", i);
 
@@ -34,7 +41,5 @@ public class Atividade62 {
 
             System.out.println();
         }
-
-        s.close();
     }
 }
