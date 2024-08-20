@@ -9,11 +9,11 @@ O objetivo principal é avaliar e fortalecer as habilidades dos participantes em
 
 ## Estrutura do Projeto
 ```
-|-- src                     <- Contém o código fonte das soluções implementadas em Java.
+|-- src                       <- Contém o código fonte das soluções implementadas em Java.
 |    |
-|    |-aN                   <- Uma subdivisão dos exercícios conforme as especificações da lista original, onde "N" é o número da respectiva questão.
+|    |-- aN                   <- Uma subdivisão dos exercícios conforme as especificações da lista original, onde "N" é o número da respectiva questão.
 |      |
-|      |-AtividadeN.java    <- Classe principal da resolução dos exercícios. "N" é o número da respectiva questão.
+|      |-- AtividadeN.java    <- Classe principal da resolução dos exercícios. "N" é o número da respectiva questão.
 |
 |-README.md <- Arquivo de documentação do projeto.  
 ```
