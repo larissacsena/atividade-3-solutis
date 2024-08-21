@@ -1,17 +1,14 @@
 package a29;
 
-/*
-    Receba do usuário dois pontos do plano cartesiano. Estes pontos devem representar os
-    vértices superior esquerdo e inferior direito de um retângulo paralelo aos eixos x e y.
-    Primeiramente informe se estes pontos podem constituir um retângulo, ou seja:
-    - se é um retângulo
-    - se é uma reta horizontal
-    - se é uma reta vertical
-    - se é um ponto
-*/
-
 import java.util.Scanner;
 
+/* Receba do usuário dois pontos do plano cartesiano. Estes pontos devem representar os
+vértices superior esquerdo e inferior direito de um retângulo paralelo aos eixos x e y. Primeiramente
+informe se estes pontos podem constituir um retângulo, ou seja:
+- se é um retângulo
+- se é uma reta horizontal
+- se é uma reta vertical
+- se é um ponto */
 public class Atividade29 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

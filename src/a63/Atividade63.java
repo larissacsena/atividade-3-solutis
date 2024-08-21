@@ -2,7 +2,7 @@ package a63;
 
 import java.util.Scanner;
 
-/*63. Desenhe a seguinte pirâmide de números. O usuário determina a quantidade de linhas.
+/* Desenhe a seguinte pirâmide de números. O usuário determina a quantidade de linhas.
 01
 01 02
 01 02 03
@@ -15,7 +15,6 @@ import java.util.Scanner;
 01 02 03 04 05 06 07 08 09 10
 01 02 03 04 05 06 07 08 09 10 11 
 ... */
-
 public class Atividade63 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

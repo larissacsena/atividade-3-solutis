@@ -2,9 +2,8 @@ package a60;
 
 import java.util.Scanner;
 
-/*Apresente uma tabela contendo a evolução do valor de uma dívida ao longo dos meses e anos a
-partir de janeiro de 2007.*/
-
+/* Apresente uma tabela contendo a evolução do valor de uma dívida ao longo dos meses e anos a
+partir de janeiro de 2007. */
 public class atividade60 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

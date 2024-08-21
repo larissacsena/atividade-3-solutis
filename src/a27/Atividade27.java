@@ -2,9 +2,8 @@ package a27;
 
 import java.util.Scanner;
 
-/*27 Descubra e apresente o maior entre três números fornecidos pelo usuário. Caso eles sejam
-iguais, avise ao usuário.*/
-
+/* Descubra e apresente o maior entre três números fornecidos pelo usuário. Caso eles sejam
+iguais, avise ao usuário. */
 public class Atividade27 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

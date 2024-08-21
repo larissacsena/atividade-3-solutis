@@ -5,11 +5,10 @@ import a30.entities.Rectangle;
 
 import java.util.Scanner;
 
-/*30.Receba dois retângulos através dos seus quatro vértices. Cada vértice é um ponto e é
+/*Receba dois retângulos através dos seus quatro vértices. Cada vértice é um ponto e é
 formado por duas coordenadas x e y. Faça a crítica destes pontos, pois eles não podem se
- sobrepor. Observe que o usuário pode fornecê-los em qualquer ordem. Em seguida informe
- se os dois retângulos se interceptam em algum lugar.*/
-
+sobrepor. Observe que o usuário pode fornecê-los em qualquer ordem. Em seguida informe
+se os dois retângulos se interceptam em algum lugar. */
 public class Atividade30 {
 
     public static void main(String[] args) {

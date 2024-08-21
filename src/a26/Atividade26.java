@@ -2,10 +2,8 @@ package a26;
 
 import java.util.Scanner;
 
-/*Receba 2 horários e exiba a diferença entre eles em segundos. A entrada destes horários
-pode ocorrer em qualquer ordem.
-Dica: transforme os dois horários para segundos.*/
-
+/* Receba 2 horários e exiba a diferença entre eles em segundos. A entrada destes horários
+pode ocorrer em qualquer ordem. Dica: transforme os dois horários para segundos. */
 public class Atividade26 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

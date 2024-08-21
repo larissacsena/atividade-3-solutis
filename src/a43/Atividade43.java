@@ -2,10 +2,7 @@ package a43;
 
 import java.util.Scanner;
 
-/*
-43. Calcule a média aritmética de 500 valores fornecidos pelo usuário.
- */
-
+/* Calcule a média aritmética de 500 valores fornecidos pelo usuário. */
 public class Atividade43 {
     public static void main(String[] args) {
 

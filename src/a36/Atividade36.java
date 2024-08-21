@@ -2,11 +2,8 @@ package a36;
 
 import java.util.Scanner;
 
-/*
-    Exiba todos os números ímpares existentes entre dois números informados pelo usuário.
-    Dica: use o operador % para calcular o resto da divisão entre dois números.
-*/
-
+/* Exiba todos os números ímpares existentes entre dois números informados pelo usuário.
+Dica: use o operador % para calcular o resto da divisão entre dois números. */
 public class Atividade36 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

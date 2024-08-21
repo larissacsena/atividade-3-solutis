@@ -3,8 +3,7 @@ package a38;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/*.Verifique se um número é primo ou não.*/
-
+/* Verifique se um número é primo ou não. */
 public class Atividade38 {
     public static void main(String[] args) {
         while (true) {

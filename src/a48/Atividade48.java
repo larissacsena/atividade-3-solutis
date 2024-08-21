@@ -2,10 +2,9 @@ package a48;
 
 import java.util.Scanner;
 
-/*48. Descida se um aluno será aprovado, reprovado por nota ou reprovado por faltas. Use o
+/* Descida se um aluno será aprovado, reprovado por nota ou reprovado por faltas. Use o
 sistema de avaliação da FAESA. Pergunte ao usuário a quantidade de notas para cálculo
-da média semestral, sendo que todas elas possuem o mesmo peso.*/
-
+da média semestral, sendo que todas elas possuem o mesmo peso. */
 public class Atividade48 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

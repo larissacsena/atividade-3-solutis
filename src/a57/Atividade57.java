@@ -4,10 +4,8 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-/*
-    Exiba todas as datas de um calendário que estão entre duas datas informadas pelo usuário
-    (dia, mês e ano). Suponha que as duas datas informadas sejam válidas.
-*/
+/* Exiba todas as datas de um calendário que estão entre duas datas informadas pelo usuário
+    (dia, mês e ano). Suponha que as duas datas informadas sejam válidas. */
 public class Atividade57 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

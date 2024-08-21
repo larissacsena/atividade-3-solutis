@@ -9,10 +9,9 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.*;
 
-/*23.Verifique quem entre duas pessoas faz aniversário primeiro. xiba o nome do primeiro
+/* Verifique quem entre duas pessoas faz aniversário primeiro. xiba o nome do primeiro
 aniversariante considerando que estamos no dia 1 de janeiro. Use como entrada o nome, o
-dia e o mês de nascimento de cada pessoa.*/
-
+dia e o mês de nascimento de cada pessoa. */
 public class Atividade23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

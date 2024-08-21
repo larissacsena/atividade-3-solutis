@@ -4,8 +4,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
-// Valide um horário composto de horas, minutos e segundos.
-
+/* Valide um horário composto de horas, minutos e segundos. */
 public class Atividade25 {
 
     public static void main(String[] args) {

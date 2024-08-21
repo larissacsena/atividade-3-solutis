@@ -5,8 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
-/*
-Leia uma relação de pacientes de uma clínica, cada um com o name, o sex, o peso, a
+/* Leia uma relação de pacientes de uma clínica, cada um com o name, o sex, o peso, a
 idade e a altura. Para sinalizar o fim da lista será fornecido “fim” no name do último
 paciente.
 Exiba um relatório contendo:
@@ -16,9 +15,7 @@ iii. a quantidade de mulheres com altura entre 1,60 e 1,70 e peso acima de 70kg.
 iv. a quantidade de pessoas com idade entre 18 e 25.
 v. o name do paciente mais velho.
 vi. o name da mulher mais baixa.
-vii. – neste item, você cria uma situação interessante constrói o algoritmo correspondente.
-*/
-
+vii. – neste item, você cria uma situação interessante constrói o algoritmo correspondente. */
 public class Atividade47 {
     public static void main(String[] args) {
         List<Patient> patients = new ArrayList<>();

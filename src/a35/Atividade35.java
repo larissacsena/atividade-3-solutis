@@ -3,11 +3,8 @@ package a35;
 import java.util.Random;
 import java.util.Scanner;
 
-/*
-Exiba uma quantidade de números sorteados determinada pelo usuário.
-Peça também que o usuário determine a faixa do sorteio.
-*/
-
+/* Exiba uma quantidade de números sorteados determinada pelo usuário.
+Peça também que o usuário determine a faixa do sorteio. */
 public class Atividade35 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

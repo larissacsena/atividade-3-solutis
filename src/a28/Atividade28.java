@@ -2,11 +2,8 @@ package a28;
 
 import java.util.Scanner;
 
-/*
-Coloque em ordem crescente três números quaisquer.
-Como desafio, tente depois fazer uma solução com apenas 3 estruturas de decisão.
-*/
-
+/* Coloque em ordem crescente três números quaisquer.
+Como desafio, tente depois fazer uma solução com apenas 3 estruturas de decisão. */
 public class Atividade28 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -2,10 +2,7 @@ package a22;
 
 import java.util.Scanner;
 
-/*
-    Verifique se duas datas de aniversário (dia e mês) são iguais.
-*/
-
+/* Verifique se duas datas de aniversário (dia e mês) são iguais. */
 public class Atividade22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

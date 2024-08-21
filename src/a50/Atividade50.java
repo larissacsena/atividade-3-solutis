@@ -3,10 +3,7 @@ package a50;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*
-50. Imprima exatamente o n-ezimo termo da seqüência de Fibonacci.
- */
-
+/* Imprima exatamente o n-ezimo termo da seqüência de Fibonacci. */
 public class Atividade50 {
     public static void main(String[] args) {
 

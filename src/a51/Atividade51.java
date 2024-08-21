@@ -2,11 +2,8 @@ package a51;
 
 import java.util.Scanner;
 
-/*
-    Exiba os n primeiros termos da seqüência de Tribonacci (soma dos três anteriores).
-    Inicia com 1,1 e 2.
-*/
-
+/* Exiba os n primeiros termos da seqüência de Tribonacci (soma dos três anteriores).
+Inicia com 1,1 e 2. */
 public class Atividade51 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
