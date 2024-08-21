@@ -3,8 +3,7 @@ package a9;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/*9. Verifique se o usuário é maior de idade ou não.*/
-
+/* Verifique se o usuário é maior de idade ou não. */
 public class Atividade9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

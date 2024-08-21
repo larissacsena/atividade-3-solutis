@@ -2,13 +2,10 @@ package a14;
 
 import java.util.Scanner;
 
-/*
-Receba do usuário o nome de um mês. Exiba o número equivalente.
+/* Receba do usuário o nome de um mês. Exiba o número equivalente.
 Obs.: para comparar Strings em Java deve-se usar o método equals ou equalsIgnoreCase,
 mas nunca o operador “==”. Por exemplo, para comparar a variável nome com “Maria”
-deve-se usar: if(nome.equals(“Maria”) ...
-*/
-
+deve-se usar: if(nome.equals(“Maria”) ... */
 public class Atividade14 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

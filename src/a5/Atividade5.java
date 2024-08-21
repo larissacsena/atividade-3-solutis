@@ -1,14 +1,10 @@
 package a5;
 
 import java.util.InputMismatchException;
-import java.util.Locale;
 import java.util.Scanner;
 
-/* Calcule e exiba o valor final de uma dívida.
-   Para isto pergunte ao usuário o valor inicial do débito,
-   a quantidade de meses e os juros mensais. Use o calculo
-   de juros simples. */
-
+/* Calcule e exiba o valor final de uma dívida. Para isto pergunte ao usuário o valor inicial do débito,
+a quantidade de meses e os juros mensais. Use o calculo de juros simples. */
 public class Atividade5 {
     public static void main(String[] args) {
 

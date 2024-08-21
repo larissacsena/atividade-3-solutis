@@ -1,12 +1,10 @@
 package a19;
 
-/*
-19. Exiba dois números fornecidos pelo usuário em ordem crescente.
- */
+
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+/* Exiba dois números fornecidos pelo usuário em ordem crescente. */
 public class Atividade19 {
 
     public static void main(String[] args) {

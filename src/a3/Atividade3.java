@@ -2,11 +2,8 @@ package a3;
 
 import java.util.Scanner;
 
-/*
-Solicite a quantidade de homens e de mulheres de uma turma da faculdade. Em seguida
-calcule e exiba o percentual (separadamente) de homens e mulheres desta turma.
-*/
-
+/* Solicite a quantidade de homens e de mulheres de uma turma da faculdade. Em seguida
+calcule e exiba o percentual (separadamente) de homens e mulheres desta turma. */
 public class Atividade3 {
     public class PercentualGenero {
         public static void main(String[] args) {

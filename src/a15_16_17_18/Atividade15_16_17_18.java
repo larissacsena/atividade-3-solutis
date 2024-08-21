@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 // Questoes 15 a 18
 
-/*
-15. Verifique a validade de uma data de aniversário (solicite apenas o número do dia e do mês).
+/* 15. Verifique a validade de uma data de aniversário (solicite apenas o número do dia e do mês).
 Além de falar se a data está ok, informe também o name do mês.
 Dica: meses com 30 dias: abril, junho, setembro e novembro.
 
@@ -14,9 +13,7 @@ Dica: meses com 30 dias: abril, junho, setembro e novembro.
 17. Acrescente no exercício anterior a apresentação do signo do horóscopo da pessoa.
 
 18. Inclua no exercício anterior a solicitação do ano de nascimento e também da data de hoje. A
-partir destas informações, apresente a idade atual desta pessoa.
-*/
-
+partir destas informações, apresente a idade atual desta pessoa. */
 public class Atividade15_16_17_18 {
     private static final String[] monthNames = {
             "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",

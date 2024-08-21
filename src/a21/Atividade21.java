@@ -2,15 +2,11 @@ package a21;
 
 import java.util.Scanner;
 
-/*
-Exiba o valor do empréstimo possível para um funcionário de uma empresa.
-Sabe-se:
+/* Exiba o valor do empréstimo possível para um funcionário de uma empresa. Sabe-se:
 Cargo -> % do salário
 Diretoria -> 30%
 Gerência -> 25%
-Operacional -> 20%
-*/
-
+Operacional -> 20% */
 public class Atividade21 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

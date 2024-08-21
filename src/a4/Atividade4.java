@@ -2,11 +2,8 @@ package a4;
 
 import java.util.Scanner;
 
-/*
-    Lê as notas respectivamente, divide pelo número de notas (4),
-    e calcula a média total
-*/
-
+/* Lê as notas respectivamente, divide pelo número de notas (4),
+e calcula a média total. */
 public class Atividade4 {
     public static void main(String[] args) {
 
